@@ -17,6 +17,7 @@
     "start": "web-dev-server"
   },
   "dependencies": {
+    "json-server": "^0.16.3",
     "lit": "^2.0.0"
   },
   "devDependencies": {
