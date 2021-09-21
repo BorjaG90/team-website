@@ -5,6 +5,7 @@
 [![Project](https://img.shields.io/badge/Project-Personal-blue.svg)][repo-link]
 [![Repository](https://img.shields.io/badge/github-black?logo=github)][repo-link]
 [![Language](https://img.shields.io/badge/Lit-272f93?logo=lit)][lit-link]
+[![Built with open-wc recommendations](https://img.shields.io/badge/built%20with-open--wc-blue.svg)](https://github.com/open-wc)
 
 A website for a fake team made in Lit
 
@@ -40,7 +41,7 @@ A website for a fake team made in Lit
 [borjag90dev-github]: https://github.com/BorjaG90
 [borjag90dev-gitlab]: https://gitlab.com/BorjaG90
 [borjag90dev-linkedin]: https://www.linkedin.com/in/borjag90/
-[repo-link]: https://github.com/BorjaG90/profile-image-generator
+[repo-link]: https://github.com/BorjaG90/team-website
 [vscode-link]: https://code.visualstudio.com/
 [javascript-link]: https://www.javascript.com/
 [lit-link]: https://lit.dev/docs/
