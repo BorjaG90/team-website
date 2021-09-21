@@ -1,8 +1,25 @@
-import { LitElement, html } from 'lit';
+import { LitElement, html, css } from 'lit';
 
 import { navList } from '../../../utils/constants.js';
 
 class NavbarHome extends LitElement {
+  static get styles() {
+    return css`
+      :host {
+        width: 90%;
+      }
+      .nav-list {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: stretch;
+        list-style-type: none;
+      }
+      .nav-list li a {
+        text-decoration: none;
+      }
+    `;
+  }
+
   render() {
     return html`
       <nav>

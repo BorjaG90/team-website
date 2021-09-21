@@ -20,7 +20,7 @@ export const navList = [
     path: '/feed',
   },
   {
-    name: 'Calenario',
+    name: 'Calendario',
     path: '/calendar',
   },
 ];
