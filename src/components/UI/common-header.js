@@ -1,18 +1,22 @@
 import { LitElement, html, css } from 'lit';
 
+import './team-logo.js';
+import './navigation/navbar-home.js';
+
 class CommonHeader extends LitElement {
   static get styles() {
     return css`
-      :host {
+      .nav {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-between;
       }
     `;
   }
 
   render() {
-    return html` <header><a href="/">Logo</a></header> `;
+    return html`
+      <div class="nav"><team-logo></team-logo><navbar-home></navbar-home></div>
+    `;
   }
 }
 
