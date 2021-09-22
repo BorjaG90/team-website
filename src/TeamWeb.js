@@ -1,4 +1,5 @@
 import { LitElement, html, css } from 'lit';
+import { router } from './router.js';
 
 import './views/home-view.js';
 
@@ -14,7 +15,11 @@ export class TeamWeb extends LitElement {
     ];
   }
 
+  firstUpdated() {
+    router(this.shadowRoot.getElementById('root'));
+  }
+
   render() {
-    return html` <div id="root"><home-view></home-view></div> `;
+    return html` <div id="root"></div> `;
   }
 }

@@ -12,7 +12,7 @@ class CommonHeader extends LitElement {
   }
 
   render() {
-    return html` <header>Logo</header> `;
+    return html` <header><a href="/">Logo</a></header> `;
   }
 }
 
