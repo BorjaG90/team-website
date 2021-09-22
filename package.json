@@ -69,6 +69,6 @@
   },
   "customElements": "custom-elements.json",
   "vaadin": {
-    "disableUsageStatistis": true
+    "disableUsageStatistics": true
   }
 }
