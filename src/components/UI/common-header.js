@@ -9,6 +9,8 @@ class CommonHeader extends LitElement {
       .nav {
         display: flex;
         justify-content: space-between;
+        background-color: #343a40;
+        color: #7d848c !important;
       }
     `;
   }

@@ -14,7 +14,10 @@ class RosterView extends LitElement {
 
   render() {
     return html`
-      <header><common-header></common-header> Blue Wyverns - Plantilla</header>
+      <header>
+        <common-header></common-header>
+        <h2>Plantilla</h2>
+      </header>
       <main><roster-list></roster-list></main>
     `;
   }

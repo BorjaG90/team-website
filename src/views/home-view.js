@@ -8,12 +8,20 @@ class HomeView extends LitElement {
       :host {
         text-align: center;
       }
+
+      h1 {
+        margin-top: 15px;
+        padding-bottom: 15px;
+      }
     `;
   }
 
   render() {
     return html`
-      <header><common-header></common-header> Blue Wyverns</header>
+      <header>
+        <common-header></common-header>
+        <h1>Blue Wyverns</h1>
+      </header>
       <main><h1>Content</h1></main>
     `;
   }

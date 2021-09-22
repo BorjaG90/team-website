@@ -8,6 +8,9 @@ class NavbarHome extends LitElement {
       :host {
         width: 90%;
       }
+      nav {
+        padding: 5px;
+      }
       .nav-list {
         display: flex;
         justify-content: space-evenly;
@@ -16,6 +19,7 @@ class NavbarHome extends LitElement {
       }
       .nav-list li a {
         text-decoration: none;
+        color: #7d848c !important;
       }
     `;
   }

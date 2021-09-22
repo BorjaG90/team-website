@@ -19,11 +19,9 @@ class TeamLogo extends LitElement {
 
   render() {
     return html`
-      <header>
-        <a href="/"
-          ><img class="logo" src="/assets/wyverns-logo.png" alt="Team logo"
-        /></a>
-      </header>
+      <a href="/"
+        ><img class="logo" src="/assets/wyverns-logo.png" alt="Team logo"
+      /></a>
     `;
   }
 }
