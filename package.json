@@ -17,6 +17,7 @@
     "start": "web-dev-server"
   },
   "dependencies": {
+    "@vaadin/router": "^1.7.4",
     "json-server": "^0.16.3",
     "lit": "^2.0.0"
   },
@@ -66,5 +67,8 @@
       "prettier --write"
     ]
   },
-  "customElements": "custom-elements.json"
+  "customElements": "custom-elements.json",
+  "vaadin": {
+    "disableUsageStatistis": true
+  }
 }
