@@ -1,0 +1,112 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "firstname": "Sergio",
+      "lastname": "Rodríguez",
+      "number": "13",
+      "country": "España",
+      "position": "Base",
+      "secondary": "Base"
+    },
+    {
+      "id": 2,
+      "firstname": "Drazen",
+      "lastname": "Petrovic",
+      "number": "7",
+      "country": "Croacia",
+      "position": "Escolta",
+      "secondary": "Escolta"
+    },
+    {
+      "id": 3,
+      "firstname": "Tracy",
+      "lastname": "McGrady",
+      "number": "1",
+      "country": "USA",
+      "position": "Alero",
+      "secondary": "Alero"
+    },
+    {
+      "id": 4,
+      "firstname": "Dirk",
+      "lastname": "Nowitzki",
+      "number": "41",
+      "country": "Alemania",
+      "position": "Ala-pivot",
+      "secondary": "Ala-pivot"
+    },
+    {
+      "id": 5,
+      "firstname": "Arvydas",
+      "lastname": "Sabonis",
+      "number": "11",
+      "country": "Lituania",
+      "position": "Pivot",
+      "secondary": "Pivot"
+    },
+    {
+      "id": 6,
+      "firstname": "Luka",
+      "lastname": "Doncic",
+      "number": "77",
+      "country": "Eslovenia",
+      "position": "Base",
+      "secondary": "Escolta"
+    },
+    {
+      "id": 7,
+      "firstname": "Dejan",
+      "lastname": "Bodiroga",
+      "number": "10",
+      "country": "Serbia",
+      "position": "Escolta",
+      "secondary": "Base"
+    },
+    {
+      "id": 8,
+      "firstname": "Luigi",
+      "lastname": "Datome",
+      "number": "70",
+      "country": "Italia",
+      "position": "Alero",
+      "secondary": "Ala-pivot"
+    },
+    {
+      "id": 9,
+      "firstname": "Precious",
+      "lastname": "Achiuwa",
+      "number": "55",
+      "country": "Nigeria",
+      "position": "Ala-pivot",
+      "secondary": "Pivot"
+    },
+    {
+      "id": 10,
+      "firstname": "Joel",
+      "lastname": "Embiid",
+      "number": "21",
+      "country": "Camerún",
+      "position": "Pivot",
+      "secondary": "Ala-pivot"
+    },
+    {
+      "id": 11,
+      "firstname": "Predrag",
+      "lastname": "Danilovic",
+      "number": "5",
+      "country": "Bosnia Herzegovina",
+      "position": "Alero",
+      "secondary": "Escolta"
+    },
+    {
+      "id": 12,
+      "firstname": "Tony",
+      "lastname": "Parker",
+      "number": "9",
+      "country": "Francia",
+      "position": "Base",
+      "secondary": "Ala-pivot"
+    }
+  ]
+}
