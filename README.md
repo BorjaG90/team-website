@@ -12,6 +12,7 @@ A website for a fake team made in Lit
 </div>
 
 <hr />
+
 ## Built with
 
 ### Technologies
