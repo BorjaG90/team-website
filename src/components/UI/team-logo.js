@@ -8,11 +8,23 @@ class TeamLogo extends LitElement {
         justify-content: center;
         align-items: center;
       }
+
+      .logo {
+        width: 50px;
+        /* height: 50px; */
+        padding: 5px;
+      }
     `;
   }
 
   render() {
-    return html` <header><a href="/">Logo</a></header> `;
+    return html`
+      <header>
+        <a href="/"
+          ><img class="logo" src="/assets/wyverns-logo.png" alt="Team logo"
+        /></a>
+      </header>
+    `;
   }
 }
 
