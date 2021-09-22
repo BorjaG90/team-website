@@ -1,4 +1,6 @@
-import { LitElement, html, css } from 'lit';
+import { LitElement, html, css, nothing } from 'lit';
+
+import './player-line.js';
 
 const url = 'http://localhost:3000/players';
 
@@ -49,7 +51,15 @@ class RosterList extends LitElement {
   }
 
   render() {
-    return html` <section></section> `;
+    return this.list.length > 0
+      ? html`
+          <section class="container">
+            ${this.list.map(
+              player => html`<player-line .player="${player}"></player-line>`
+            )}
+          </section>
+        `
+      : nothing;
   }
 }
 
