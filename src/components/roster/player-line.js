@@ -20,8 +20,17 @@ class PlayerLine extends LitElement {
     this.player = {};
   }
 
+  renderPosition() {
+    return this.player.position === this.player.secondary
+      ? html`${this.player.position}`
+      : html`${this.player.position}/${this.player.secondary}`;
+  }
+
   render() {
-    return html`<div class="player">${this.player.firstname}</div> `;
+    return html`<div class="player">
+      #${this.player.number} ${this.renderPosition()} - ${this.player.firstname}
+      ${this.player.lastname} : ${this.player.country}
+    </div> `;
   }
 }
 
