@@ -19,6 +19,7 @@ class PlayerLine extends LitElement {
       }
       .player {
         width: 90%;
+        max-width: 650px;
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
@@ -56,6 +57,7 @@ class PlayerLine extends LitElement {
       }
       .position_container {
         width: 40px;
+        flex-grow: 2;
         background: #e4580d;
         transform: skewX(-20deg);
         left: -32px;
@@ -66,7 +68,7 @@ class PlayerLine extends LitElement {
       }
       .name_container {
         background: #0e44ba;
-        flex-grow: 2;
+        flex-grow: 12;
         padding: 0 5px 0 5px;
         transform: skewX(-20deg);
         left: -32px;
