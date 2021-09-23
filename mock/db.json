@@ -6,8 +6,8 @@
       "lastname": "Rodríguez",
       "number": "13",
       "country": "España",
-      "position": "Base",
-      "secondary": "Base"
+      "position": "1",
+      "secondary": "1"
     },
     {
       "id": 2,
@@ -15,8 +15,8 @@
       "lastname": "Petrovic",
       "number": "7",
       "country": "Croacia",
-      "position": "Escolta",
-      "secondary": "Escolta"
+      "position": "2",
+      "secondary": "2"
     },
     {
       "id": 3,
@@ -24,8 +24,8 @@
       "lastname": "McGrady",
       "number": "1",
       "country": "USA",
-      "position": "Alero",
-      "secondary": "Alero"
+      "position": "3",
+      "secondary": "3"
     },
     {
       "id": 4,
@@ -33,8 +33,8 @@
       "lastname": "Nowitzki",
       "number": "41",
       "country": "Alemania",
-      "position": "Ala-pivot",
-      "secondary": "Ala-pivot"
+      "position": "4",
+      "secondary": "4"
     },
     {
       "id": 5,
@@ -42,8 +42,8 @@
       "lastname": "Sabonis",
       "number": "11",
       "country": "Lituania",
-      "position": "Pivot",
-      "secondary": "Pivot"
+      "position": "5",
+      "secondary": "5"
     },
     {
       "id": 6,
@@ -51,8 +51,8 @@
       "lastname": "Doncic",
       "number": "77",
       "country": "Eslovenia",
-      "position": "Base",
-      "secondary": "Escolta"
+      "position": "1",
+      "secondary": "2"
     },
     {
       "id": 7,
@@ -60,8 +60,8 @@
       "lastname": "Bodiroga",
       "number": "10",
       "country": "Serbia",
-      "position": "Escolta",
-      "secondary": "Base"
+      "position": "2",
+      "secondary": "1"
     },
     {
       "id": 8,
@@ -69,8 +69,8 @@
       "lastname": "Datome",
       "number": "70",
       "country": "Italia",
-      "position": "Alero",
-      "secondary": "Ala-pivot"
+      "position": "3",
+      "secondary": "4"
     },
     {
       "id": 9,
@@ -78,8 +78,8 @@
       "lastname": "Achiuwa",
       "number": "55",
       "country": "Nigeria",
-      "position": "Ala-pivot",
-      "secondary": "Pivot"
+      "position": "4",
+      "secondary": "5"
     },
     {
       "id": 10,
@@ -87,8 +87,8 @@
       "lastname": "Embiid",
       "number": "21",
       "country": "Camerún",
-      "position": "Pivot",
-      "secondary": "Ala-pivot"
+      "position": "5",
+      "secondary": "4"
     },
     {
       "id": 11,
@@ -96,8 +96,8 @@
       "lastname": "Danilovic",
       "number": "5",
       "country": "Bosnia Herzegovina",
-      "position": "Alero",
-      "secondary": "Escolta"
+      "position": "3",
+      "secondary": "2"
     },
     {
       "id": 12,
@@ -105,8 +105,8 @@
       "lastname": "Parker",
       "number": "9",
       "country": "Francia",
-      "position": "Base",
-      "secondary": "Ala-pivot"
+      "position": "1",
+      "secondary": "4"
     }
   ]
 }
