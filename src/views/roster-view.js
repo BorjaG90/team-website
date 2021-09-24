@@ -1,15 +1,13 @@
-import { LitElement, html, css } from 'lit';
+import { LitElement, html } from 'lit';
+
+import { mainStyles } from '../utils/main-styles.js';
 
 import '../components/UI/common-header.js';
 import '../components/roster/roster-list.js';
 
 class RosterView extends LitElement {
   static get styles() {
-    return css`
-      :host {
-        text-align: center;
-      }
-    `;
+    return [mainStyles];
   }
 
   render() {

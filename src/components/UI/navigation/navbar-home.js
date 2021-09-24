@@ -19,7 +19,7 @@ class NavbarHome extends LitElement {
       }
       .nav-list li a {
         text-decoration: none;
-        color: #7d848c !important;
+        color: var(--tw-nav-color) !important;
       }
     `;
   }

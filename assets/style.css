@@ -1,0 +1,33 @@
+html,
+body {
+  margin: auto;
+  font-family: Roboto, Verdana, Avenir, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+html {
+  --tw-background-color: #121212;
+  --tw-text-color: rgba(255, 255, 255, 0.87);
+  --tw-nav-color: #7D848C;
+  --tw-header-back-color: #343A40;
+  --tw-primary-color: #1418A0;
+  --tw-primary-text-color: white;
+  --tw-secondary-color: #C2C5CD;
+  --tw-secondary-text-color: black;
+  --tw-third-color: black;
+  --tw-third-text-color: white;
+}
+
+body {
+  background-color: black;
+}
+
+a {
+  font-weight: bold;
+  /* color: #2c3e50; */
+  text-decoration: none;
+}

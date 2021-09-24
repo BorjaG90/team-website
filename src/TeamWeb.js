@@ -10,6 +10,8 @@ export class TeamWeb extends LitElement {
         #root {
           width: 100%;
           height: 100%;
+          background-color: var(--tw-background-color, black);
+          padding-bottom: 1rem;
         }
       `,
     ];

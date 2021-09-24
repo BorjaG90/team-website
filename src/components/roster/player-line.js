@@ -20,9 +20,10 @@ class PlayerLine extends LitElement {
       .player {
         width: 90%;
         max-width: 650px;
+        min-width: 300px;
         display: flex;
         flex-wrap: nowrap;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         margin-bottom: 1px;
       }
@@ -34,7 +35,7 @@ class PlayerLine extends LitElement {
       .circle {
         width: 30px;
         height: 24px;
-        background: #2c792c;
+        background: var(--tw-primary-color, #2c792c);
         -moz-border-radius: 100px 0 0 100px;
         -webkit-border-radius: 100px 0 0 100px;
         border-radius: 100px 0 0 100px;
@@ -45,42 +46,49 @@ class PlayerLine extends LitElement {
         width: 20px;
         z-index: 2;
         left: -20px;
+        color: var(--tw-primary-text-color, white);
       }
       .tail {
         position: relative;
         width: 16px;
         height: 24px;
-        background: #2c792c;
-        z-index: 1;
-        transform: skewX(-20deg);
+        background: var(--tw-primary-color, #2c792c);
         left: -32px;
+        transform: skewX(-20deg);
+        z-index: 1;
       }
       .position_container {
-        width: 40px;
-        flex-grow: 2;
-        background: #e4580d;
-        transform: skewX(-20deg);
-        left: -32px;
         position: relative;
+        min-width: 41px;
+        background: var(--tw-secondary-color, #e4580d);
+        left: -32px;
+        transform: skewX(-20deg);
+        color: var(--tw-secondary-text-color, black);
       }
-      .content {
-        transform: skewX(20deg);
-      }
+
       .name_container {
-        background: #0e44ba;
+        position: relative;
+        background: var(--tw-primary-color, #0e44ba);
         flex-grow: 12;
         padding: 0 5px 0 5px;
         transform: skewX(-20deg);
         left: -32px;
-        position: relative;
+        color: var(--tw-primary-text-color, white);
       }
       .country_container {
-        width: 50px;
-        background: #e0e40d;
-        color: black;
-        transform: skewX(-20deg);
-        left: -32px;
         position: relative;
+        width: 50px;
+        min-width: 38px;
+        background: var(--tw-third-color, #e0e40d);
+        left: -32px;
+        transform: skewX(-20deg);
+        color: var(--tw-third-text-color, black);
+      }
+      .content {
+        transform: skewX(20deg);
+        white-space: nowrap; /* forces text to single line */
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
     `;
   }
@@ -114,15 +122,23 @@ class PlayerLine extends LitElement {
     </div>`;
   }
 
+  renderName() {
+    let lname = this.player.lastname;
+    if (lname.length > 15) {
+      lname = `${lname.slice(0, 10)}...`;
+    }
+    return html`<div class="content">
+      ${this.player.firstname.length + lname.length >= 20
+        ? html`${this.player.firstname.slice(0, 1)}. ${lname}`
+        : html`${this.player.firstname} ${lname}`}
+    </div>`;
+  }
+
   render() {
     return html`<div class="player">
       ${this.renderNumber()}
       <div class="position_container">${this.renderPosition()}</div>
-      <div class="name_container">
-        <div class="content">
-          ${this.player.firstname} ${this.player.lastname}
-        </div>
-      </div>
+      <div class="name_container">${this.renderName()}</div>
       <div class="country_container">
         <div class="content">
           ${this.player.country.slice(0, 3).toUpperCase()}

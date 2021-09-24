@@ -1,19 +1,12 @@
-import { LitElement, html, css } from 'lit';
+import { LitElement, html } from 'lit';
+
+import { mainStyles } from '../utils/main-styles.js';
 
 import '../components/UI/common-header.js';
 
 class HomeView extends LitElement {
   static get styles() {
-    return css`
-      :host {
-        text-align: center;
-      }
-
-      h1 {
-        margin-top: 15px;
-        padding-bottom: 15px;
-      }
-    `;
+    return [mainStyles];
   }
 
   render() {
