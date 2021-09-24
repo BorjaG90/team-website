@@ -105,13 +105,16 @@ class PlayerLine extends LitElement {
   }
 
   renderPosition() {
-    return html`<div class="content">
-      ${this.player.position === this.player.secondary
-        ? html`${positions[this.player.position]}`
-        : html`${positions[this.player.position]}/${positions[
-            this.player.secondary
-          ]}`}
-    </div>`;
+    if (this.player.position) {
+      return html`<div class="content">
+        ${this.player.position === this.player.secondary
+          ? html`${positions[this.player.position]}`
+          : html`${positions[this.player.position]}/${positions[
+              this.player.secondary
+            ]}`}
+      </div>`;
+    }
+    return html`<div class="content">${this.player.age}</div>`;
   }
 
   renderNumber() {

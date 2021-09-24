@@ -16,7 +16,11 @@ class RosterView extends LitElement {
         <common-header></common-header>
         <h2>Plantilla</h2>
       </header>
-      <main><roster-list></roster-list></main>
+      <main>
+        <section class="container">
+          <roster-list url="http://localhost:3000/players"></roster-list>
+        </section>
+      </main>
     `;
   }
 }

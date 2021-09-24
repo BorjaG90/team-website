@@ -108,5 +108,495 @@
       "position": "1",
       "secondary": "4"
     }
+  ],
+  "alevin": [
+    {
+      "id": 1,
+      "firstname": "Sergio",
+      "lastname": "Rodríguez",
+      "number": 4,
+      "country": "España",
+      "age": 11
+    },
+    {
+      "id": 2,
+      "firstname": "Alberto",
+      "lastname": "Rodríguez",
+      "number": 5,
+      "country": "España",
+      "age": 12
+    },
+    {
+      "id": 3,
+      "firstname": "Raúl",
+      "lastname": "Marchena",
+      "number": 6,
+      "country": "España",
+      "age": 11
+    },
+    {
+      "id": 4,
+      "firstname": "Daniel",
+      "lastname": "García",
+      "number": 7,
+      "country": "España",
+      "age": 11
+    },
+    {
+      "id": 5,
+      "firstname": "Roberto",
+      "lastname": "Alonso",
+      "number": 8,
+      "country": "España",
+      "age": 12
+    },
+    {
+      "id": 6,
+      "firstname": "Ronaldo",
+      "lastname": "Gasol",
+      "number": 9,
+      "country": "España",
+      "age": 12
+    },
+    {
+      "id": 7,
+      "firstname": "José",
+      "lastname": "Navarro",
+      "number": 10,
+      "country": "España",
+      "age": 11
+    },
+    {
+      "id": 8,
+      "firstname": "Manuel",
+      "lastname": "González",
+      "number": 11,
+      "country": "España",
+      "age": 12
+    },
+    {
+      "id": 9,
+      "firstname": "Aarón",
+      "lastname": "López",
+      "number": 12,
+      "country": "España",
+      "age": 12
+    },
+    {
+      "id": 10,
+      "firstname": "Isaac",
+      "lastname": "Palau",
+      "number": 13,
+      "country": "España",
+      "age": 11
+    },
+    {
+      "id": 11,
+      "firstname": "José María",
+      "lastname": "Sánchez",
+      "number": 14,
+      "country": "España",
+      "age": 11
+    },
+    {
+      "id": 12,
+      "firstname": "Javier",
+      "lastname": "Morante",
+      "number": 15,
+      "country": "España",
+      "age": 12
+    }
+  ],
+  "infantil": [
+    {
+      "id": 1,
+      "firstname": "Raúl",
+      "lastname": "Gasol",
+      "number": 4,
+      "country": "España",
+      "age": 13
+    },
+    {
+      "id": 2,
+      "firstname": "Juan",
+      "lastname": "Sánchez",
+      "number": 5,
+      "country": "España",
+      "age": 13
+    },
+    {
+      "id": 3,
+      "firstname": "Antonio",
+      "lastname": "Alonso",
+      "number": 6,
+      "country": "España",
+      "age": 13
+    },
+    {
+      "id": 4,
+      "firstname": "Diego",
+      "lastname": "Alonso",
+      "number": 7,
+      "country": "España",
+      "age": 14
+    },
+    {
+      "id": 5,
+      "firstname": "Ivan",
+      "lastname": "Alonso",
+      "number": 8,
+      "country": "España",
+      "age": 13
+    },
+    {
+      "id": 6,
+      "firstname": "Sergio",
+      "lastname": "López",
+      "number": 9,
+      "country": "España",
+      "age": 14
+    },
+    {
+      "id": 7,
+      "firstname": "Juan",
+      "lastname": "González",
+      "number": 10,
+      "country": "España",
+      "age": 14
+    },
+    {
+      "id": 8,
+      "firstname": "Sergio",
+      "lastname": "Palau",
+      "number": 11,
+      "country": "España",
+      "age": 14
+    },
+    {
+      "id": 9,
+      "firstname": "Juan Carlos",
+      "lastname": "Rodríguez",
+      "number": 12,
+      "country": "España",
+      "age": 14
+    },
+    {
+      "id": 10,
+      "firstname": "Tiago",
+      "lastname": "Navarro",
+      "number": 13,
+      "country": "España",
+      "age": 13
+    },
+    {
+      "id": 11,
+      "firstname": "Leonardo",
+      "lastname": "Morante",
+      "number": 14,
+      "country": "España",
+      "age": 14
+    },
+    {
+      "id": 12,
+      "firstname": "Pablo",
+      "lastname": "Cabezas",
+      "number": 15,
+      "country": "España",
+      "age": 13
+    }
+  ],
+  "cadete": [
+    {
+      "id": 1,
+      "firstname": "Juan",
+      "lastname": "Gasol",
+      "number": 4,
+      "country": "España",
+      "age": 15
+    },
+    {
+      "id": 2,
+      "firstname": "Alberto",
+      "lastname": "Alonso",
+      "number": 5,
+      "country": "España",
+      "age": 16
+    },
+    {
+      "id": 3,
+      "firstname": "Sergio",
+      "lastname": "Alonso",
+      "number": 6,
+      "country": "España",
+      "age": 16
+    },
+    {
+      "id": 4,
+      "firstname": "Raúl",
+      "lastname": "Sánchez",
+      "number": 7,
+      "country": "España",
+      "age": 15
+    },
+    {
+      "id": 5,
+      "firstname": "Carlos",
+      "lastname": "González",
+      "number": 8,
+      "country": "España",
+      "age": 16
+    },
+    {
+      "id": 6,
+      "firstname": "Pablo",
+      "lastname": "González",
+      "number": 9,
+      "country": "España",
+      "age": 15
+    },
+    {
+      "id": 7,
+      "firstname": "Mario",
+      "lastname": "López",
+      "number": 10,
+      "country": "España",
+      "age": 16
+    },
+    {
+      "id": 8,
+      "firstname": "Oscár",
+      "lastname": "López",
+      "number": 11,
+      "country": "España",
+      "age": 16
+    },
+    {
+      "id": 9,
+      "firstname": "Miguel",
+      "lastname": "Rodríguez",
+      "number": 12,
+      "country": "España",
+      "age": 15
+    },
+    {
+      "id": 10,
+      "firstname": "Mikel",
+      "lastname": "Alonso",
+      "number": 13,
+      "country": "España",
+      "age": 15
+    },
+    {
+      "id": 11,
+      "firstname": "Borja",
+      "lastname": "González",
+      "number": 14,
+      "country": "España",
+      "age": 16
+    },
+    {
+      "id": 12,
+      "firstname": "Juancho",
+      "lastname": "Palau",
+      "number": 15,
+      "country": "España",
+      "age": 15
+    }
+  ],
+  "junior_fem": [
+    {
+      "id": 1,
+      "firstname": "Laia",
+      "lastname": "Navarro",
+      "number": 4,
+      "country": "España",
+      "age": 17
+    },
+    {
+      "id": 2,
+      "firstname": "Mónica",
+      "lastname": "Alonso",
+      "number": 5,
+      "country": "España",
+      "age": 17
+    },
+    {
+      "id": 3,
+      "firstname": "Noelia",
+      "lastname": "Palau",
+      "number": 6,
+      "country": "España",
+      "age": 17
+    },
+    {
+      "id": 4,
+      "firstname": "Arancha",
+      "lastname": "Gasol",
+      "number": 7,
+      "country": "España",
+      "age": 18
+    },
+    {
+      "id": 5,
+      "firstname": "Sara",
+      "lastname": "Palau",
+      "number": 8,
+      "country": "España",
+      "age": 17
+    },
+    {
+      "id": 6,
+      "firstname": "Claudia",
+      "lastname": "González",
+      "number": 9,
+      "country": "España",
+      "age": 18
+    },
+    {
+      "id": 7,
+      "firstname": "Cristina",
+      "lastname": "Cabezas",
+      "number": 10,
+      "country": "España",
+      "age": 17
+    },
+    {
+      "id": 8,
+      "firstname": "María",
+      "lastname": "Navarro",
+      "number": 11,
+      "country": "España",
+      "age": 17
+    },
+    {
+      "id": 9,
+      "firstname": "Laura",
+      "lastname": "Rodríguez",
+      "number": 12,
+      "country": "España",
+      "age": 18
+    },
+    {
+      "id": 10,
+      "firstname": "Lidia",
+      "lastname": "González",
+      "number": 13,
+      "country": "España",
+      "age": 18
+    },
+    {
+      "id": 11,
+      "firstname": "Inés",
+      "lastname": "Sánchez",
+      "number": 14,
+      "country": "España",
+      "age": 17
+    },
+    {
+      "id": 12,
+      "firstname": "Paula",
+      "lastname": "Sánchez",
+      "number": 15,
+      "country": "España",
+      "age": 18
+    }
+  ],
+  "junior_mas": [
+    {
+      "id": 1,
+      "firstname": "Raúl",
+      "lastname": "Morante",
+      "number": 4,
+      "country": "España",
+      "age": 17
+    },
+    {
+      "id": 2,
+      "firstname": "Juan",
+      "lastname": "Rodríguez",
+      "number": 5,
+      "country": "España",
+      "age": 17
+    },
+    {
+      "id": 3,
+      "firstname": "Sergio",
+      "lastname": "González",
+      "number": 6,
+      "country": "España",
+      "age": 17
+    },
+    {
+      "id": 4,
+      "firstname": "Diego",
+      "lastname": "González",
+      "number": 7,
+      "country": "España",
+      "age": 18
+    },
+    {
+      "id": 5,
+      "firstname": "Victor",
+      "lastname": "Cabezas",
+      "number": 8,
+      "country": "España",
+      "age": 17
+    },
+    {
+      "id": 6,
+      "firstname": "Mario",
+      "lastname": "Palau",
+      "number": 9,
+      "country": "España",
+      "age": 18
+    },
+    {
+      "id": 7,
+      "firstname": "Mario",
+      "lastname": "Rodríguez",
+      "number": 10,
+      "country": "España",
+      "age": 17
+    },
+    {
+      "id": 8,
+      "firstname": "Pablo",
+      "lastname": "Alonso",
+      "number": 11,
+      "country": "España",
+      "age": 17
+    },
+    {
+      "id": 9,
+      "firstname": "Juan",
+      "lastname": "Navarro",
+      "number": 12,
+      "country": "España",
+      "age": 18
+    },
+    {
+      "id": 10,
+      "firstname": "Carlos",
+      "lastname": "López",
+      "number": 13,
+      "country": "España",
+      "age": 18
+    },
+    {
+      "id": 11,
+      "firstname": "David",
+      "lastname": "López",
+      "number": 14,
+      "country": "España",
+      "age": 17
+    },
+    {
+      "id": 12,
+      "firstname": "DIego",
+      "lastname": "Germán",
+      "number": 15,
+      "country": "España",
+      "age": 18
+    }
   ]
 }

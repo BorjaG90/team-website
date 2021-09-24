@@ -9,7 +9,7 @@ export const navList = [
   },
   {
     name: 'Cantera',
-    path: 'juniors',
+    path: 'farm',
   },
   {
     name: 'Tienda',

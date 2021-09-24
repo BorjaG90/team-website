@@ -2,8 +2,6 @@ import { LitElement, html, css, nothing } from 'lit';
 
 import './player-line.js';
 
-const url = 'http://localhost:3000/players';
-
 const errorHandler = response => {
   if (!response.ok) {
     return { error: response.statusText, errorCode: response.status };
@@ -23,6 +21,7 @@ class RosterList extends LitElement {
   static get properties() {
     return {
       list: { type: Array },
+      url: { type: String },
     };
   }
 
@@ -37,7 +36,7 @@ class RosterList extends LitElement {
 
   // eslint-disable-next-line class-methods-use-this
   async getDataFromAPI() {
-    return fetch(`${url}`, { method: 'GET' })
+    return fetch(`${this.url}`, { method: 'GET' })
       .then(errorHandler)
       .then(response => response)
       .catch(error => ({ error }));
@@ -53,11 +52,9 @@ class RosterList extends LitElement {
   render() {
     return this.list.length > 0
       ? html`
-          <section class="container">
-            ${this.list.map(
-              player => html`<player-line .player="${player}"></player-line>`
-            )}
-          </section>
+          ${this.list.map(
+            player => html`<player-line .player="${player}"></player-line>`
+          )}
         `
       : nothing;
   }
