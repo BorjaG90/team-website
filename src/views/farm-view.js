@@ -11,6 +11,13 @@ class FarmView extends LitElement {
   }
 
   render() {
+    const header = {
+      number: '#',
+      age: 'Edad',
+      firstname: 'Jugador',
+      lastname: '',
+      country: 'País',
+    };
     return html`
       <header>
         <common-header></common-header>
@@ -19,15 +26,30 @@ class FarmView extends LitElement {
       <main>
         <section class="container">
           <h3>Alevín</h3>
-          <roster-list url="http://localhost:3000/alevin"></roster-list>
+          <roster-list
+            .header="${header}"
+            url="http://localhost:3000/alevin"
+          ></roster-list>
           <h3>Infantil</h3>
-          <roster-list url="http://localhost:3000/infantil"></roster-list>
+          <roster-list
+            .header="${header}"
+            url="http://localhost:3000/infantil"
+          ></roster-list>
           <h3>Cadete</h3>
-          <roster-list url="http://localhost:3000/cadete"></roster-list>
+          <roster-list
+            .header="${header}"
+            url="http://localhost:3000/cadete"
+          ></roster-list>
           <h3>Junior Femenino</h3>
-          <roster-list url="http://localhost:3000/junior_fem"></roster-list>
+          <roster-list
+            .header="${header}"
+            url="http://localhost:3000/junior_fem"
+          ></roster-list>
           <h3>Junior Masculino</h3>
-          <roster-list url="http://localhost:3000/junior_mas"></roster-list>
+          <roster-list
+            .header="${header}"
+            url="http://localhost:3000/junior_mas"
+          ></roster-list>
         </section>
       </main>
     `;

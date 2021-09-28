@@ -11,6 +11,13 @@ class RosterView extends LitElement {
   }
 
   render() {
+    const header = {
+      number: '#',
+      age: 'Pos.',
+      firstname: 'Jugador',
+      lastname: '',
+      country: 'País',
+    };
     return html`
       <header>
         <common-header></common-header>
@@ -18,7 +25,10 @@ class RosterView extends LitElement {
       </header>
       <main>
         <section class="container">
-          <roster-list url="http://localhost:3000/players"></roster-list>
+          <roster-list
+            .header="${header}"
+            url="http://localhost:3000/players"
+          ></roster-list>
         </section>
       </main>
     `;

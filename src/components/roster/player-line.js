@@ -35,7 +35,7 @@ class PlayerLine extends LitElement {
       .circle {
         width: 30px;
         height: 24px;
-        background: var(--tw-primary-color, #2c792c);
+        background: var(--pl-primary-color, #2c792c);
         -moz-border-radius: 100px 0 0 100px;
         -webkit-border-radius: 100px 0 0 100px;
         border-radius: 100px 0 0 100px;
@@ -46,13 +46,13 @@ class PlayerLine extends LitElement {
         width: 20px;
         z-index: 2;
         left: -20px;
-        color: var(--tw-primary-text-color, white);
+        color: var(--pl-primary-text-color, white);
       }
       .tail {
         position: relative;
         width: 16px;
         height: 24px;
-        background: var(--tw-primary-color, #2c792c);
+        background: var(--pl-primary-color, #2c792c);
         left: -32px;
         transform: skewX(-20deg);
         z-index: 1;
@@ -60,29 +60,29 @@ class PlayerLine extends LitElement {
       .position_container {
         position: relative;
         min-width: 41px;
-        background: var(--tw-secondary-color, #e4580d);
+        background: var(--pl-secondary-color, #e4580d);
         left: -32px;
         transform: skewX(-20deg);
-        color: var(--tw-secondary-text-color, black);
+        color: var(--pl-secondary-text-color, black);
       }
 
       .name_container {
         position: relative;
-        background: var(--tw-primary-color, #0e44ba);
+        background: var(--pl-primary-color, #0e44ba);
         flex-grow: 12;
         padding: 0 5px 0 5px;
         transform: skewX(-20deg);
         left: -32px;
-        color: var(--tw-primary-text-color, white);
+        color: var(--pl-primary-text-color, white);
       }
       .country_container {
         position: relative;
         width: 50px;
         min-width: 38px;
-        background: var(--tw-third-color, #e0e40d);
+        background: var(--pl-third-color, #e0e40d);
         left: -32px;
         transform: skewX(-20deg);
-        color: var(--tw-third-text-color, black);
+        color: var(--pl-third-text-color, black);
       }
       .content {
         transform: skewX(20deg);
